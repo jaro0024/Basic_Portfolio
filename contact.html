@@ -6,28 +6,32 @@
     </head>
     <body>
         <div id="fixedheader">Daniela Jaros
-        <div id="navigation"> 
-            <a href="#">About</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
+        <div class="topnav" id="mytopnav"> 
+            <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
         </div>
         </div>
-        <div id="contact">
+        <div class="container">
             <h2>Contact</h2>
             <form>
-                Name <br>
+                <label for="name">Name</label> <br>
                 <input type="text" name="name" value="John smith"> <br><br>
-                Email <br>
+
+                <label for="email">Email</label> <br>
                 <input type="text" name="email" value="example@gmail.com"> <br><br>
+                
+                <label for="message">Message</label> <br>
+                <textarea rows="10" cols="50" name="message"></textarea> <br><br>
+
+                <button type="submit" form="form1" value="Submit">Submit</button>
             </form>
-            <textarea rows="10" cols="50" name="message" form="usrform"></textarea> <br><br>
-            <button type="submit" form="form1" value="Submit">Submit</button>
         </div>
-        <div id="connectwithme">
+        <div class="connectwithme">
             <h3>Connect with Me</h3>
-            <a href="https://github.com/jaro0024" target="_blank"><img src="c:\Users\Dani Jaros\Desktop\Bootcamp\Basic_Portfolio\Assets\Images\622927-github-64.png" alt="GitHub"/></a>
-            <a href="https://www.linkedin.com/in/daniela-jaros-9186837/" target="_blank"><img src="c:\Users\Dani Jaros\Desktop\Bootcamp\Basic_Portfolio\Assets\Images\linkedin-64.png" alt="LinkedIn"/></a>
-            <a href="https://stackoverflow.com/users/8357890/jaro0024" target="_blank"><img src="c:\Users\Dani Jaros\Desktop\Bootcamp\Basic_Portfolio\Assets\Images\overflow-64.png" alt="Stack Overflow"/></a>
+            <a href="https://github.com/jaro0024" target="_blank"><img src="Assets\Images\622927-github-64.png" alt="GitHub"/></a>
+            <a href="https://www.linkedin.com/in/daniela-jaros-9186837/" target="_blank"><img src="Assets\Images\linkedin-64.png" alt="LinkedIn"/></a>
+            <a href="https://stackoverflow.com/users/8357890/jaro0024" target="_blank"><img src="Assets\Images\overflow-64.png" alt="Stack Overflow"/></a>
         </div>
         <div id="fixedfooter"><small>&copy; Copyright 2016 Daniela Jaros</small></div>
     </body>
