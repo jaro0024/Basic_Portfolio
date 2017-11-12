@@ -2,9 +2,11 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
         <title>Contact Me</title>
     </head>
     <body>
+        <div id="wrapper">
         <div id="fixedheader">Daniela Jaros
         <div class="topnav" id="mytopnav"> 
             <a href="index.html">About</a>
@@ -16,22 +18,23 @@
             <h2>Contact</h2>
             <form>
                 <label for="name">Name</label> <br>
-                <input type="text" name="name" value="John smith"> <br><br>
+                <input id="name" type="text" name="name" value="John smith"> <br><br>
 
                 <label for="email">Email</label> <br>
-                <input type="text" name="email" value="example@gmail.com"> <br><br>
+                <input id="email" type="text" name="email" value="example@gmail.com"> <br><br>
                 
                 <label for="message">Message</label> <br>
-                <textarea rows="10" cols="50" name="message"></textarea> <br><br>
+                <textarea rows="10" cols="50" id="message" name="message"></textarea> <br><br>
 
-                <button type="submit" form="form1" value="Submit">Submit</button>
+                <button name="submit" type="submit" value="Submit">Submit</button>
             </form>
         </div>
-        <div class="connectwithme">
+        <div class="connect">
             <h3>Connect with Me</h3>
-            <a href="https://github.com/jaro0024" target="_blank"><img src="Assets\Images\622927-github-64.png" alt="GitHub"/></a>
-            <a href="https://www.linkedin.com/in/daniela-jaros-9186837/" target="_blank"><img src="Assets\Images\linkedin-64.png" alt="LinkedIn"/></a>
-            <a href="https://stackoverflow.com/users/8357890/jaro0024" target="_blank"><img src="Assets\Images\overflow-64.png" alt="Stack Overflow"/></a>
+            <a href="https://github.com/jaro0024" target="_blank"><img src="Assets/Images/622927-github-64.png" alt="GitHub"/></a>
+            <a href="https://www.linkedin.com/in/daniela-jaros-9186837/" target="_blank"><img src="Assets/Images/linkedin-64.png" alt="LinkedIn"/></a>
+            <a href="https://stackoverflow.com/users/8357890/jaro0024" target="_blank"><img src="Assets/Images/overflow-64.png" alt="Stack Overflow"/></a>
+        </div>
         </div>
         <div id="fixedfooter"><small>&copy; Copyright 2016 Daniela Jaros</small></div>
     </body>
