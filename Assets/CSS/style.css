@@ -1,3 +1,114 @@
+ /* * {
+    box-sizing: border-box;
+ }*/    
+
+body {
+    width: 960px;
+    min-width: 100%;
+    background-image: url(../Images/vertical-waves.png);
+    margin: 0;
+}
+
+/* header */
+
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    overflow: hidden;
+}
+
+.logo {
+    float:left;
+	font-size: 40px;
+	padding: 2%;
+	background-color: #851616;
+	margin-left: 200px;
+	color: white;
+	font-weight: bold;
+}
+
+.header nav {
+    margin-right: 250px;
+    margin-top: 15px;
+}
+
+.header nav ul {
+    float: right;
+}
+
+.header nav ul li{
+	display: inline;
+	float:left;
+	padding: 10px;
+	font-size: 20px;
+	color: #777777;
+	font-weight: bold;
+    border-right: 1px solid #cccccc;
+}
+
+#third {
+    border-right: none;
+}
+
+/* --------------------- */
+
+/* main */
+
+.main {
+    height: 700px;
+    min-height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+/* --------------------- */
+
+/* about me */
+
+.aboutme {
+    float: left;
+    width: 650px;
+    height: 480px;
+    background-color: #ffffff; 
+    border: 1px solid #dddddd;
+    margin: 40px 0 0 200px;
+}
+
+/* enter code for rest of about me - h1, img, p */
 
 
+/* connect sidebar */
+
+.connect {
+    float: left;
+    width: 270px;
+    height: 200px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin: 40px 0 0 80px;
+}
+
+.side h2 {
+    color: #851616;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 2px solid #dddddd;
+}
+
+.sociallinks ul {
+    float: left;
+}
+
+.sociallinks ul li{
+    display: inline;
+}
+
+/* finish code for connect */
+
+/* ------------------------ */
 
