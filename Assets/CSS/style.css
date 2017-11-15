@@ -3,13 +3,15 @@
  }   
 
  html {
-	position: relative;
+    width: 100%;
+    height: auto;
 }
 
 body {
     width: 100%;
     height: 100%;
-    margin: 0;
+    min-width: 1000px;
+    margin: auto;
     background-image: url(../Images/vertical-waves.png); 
 }
 
@@ -19,18 +21,19 @@ body {
     width: 100%;
     height: auto;
     background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
     border-bottom: 2px solid #cccccc;
     overflow: hidden;
 }
 
 .logo {
     float:left;
-	font-size: 40px;
-	padding: 2%;
-	background-color: #851616;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #851616;
+	padding: 30px;
 	margin-left: 200px;
-	color: white;
-	font-weight: bold;
 }
 
 .header nav {
@@ -48,7 +51,6 @@ body {
 	padding: 10px;
 	font-size: 20px;
 	color: #777777;
-    font-weight: bold;
     border-right: 1px solid #cccccc;
 }
 
@@ -81,6 +83,10 @@ body {
     margin: 40px 100px 40px 200px;
 }
 
+.aboutme h1 {
+
+}
+
 .aboutme img {
     width: 200px;
     height: 200px;
@@ -95,7 +101,7 @@ body {
     float: left;
     width: 270px;
     height: 200px;
-    margin: 40px 235px 40px 40px; 
+    margin: 40px 235px 40px 20px; 
     background-color: #ffffff;
     border: 1px solid #dddddd;
 }
