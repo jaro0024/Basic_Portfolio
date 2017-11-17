@@ -138,8 +138,17 @@ h1, h2, h3 {
     height: 200px;  
     padding: 10px;
     overflow: hidden;
-    position: relative;
 }  
+
+.project {
+    position: relative;
+}
+
+.imgtitle {
+    position: absolute;
+    top: 200px;
+    left: 0;  
+}
 
 /* -------------------------------------------------- */
 
